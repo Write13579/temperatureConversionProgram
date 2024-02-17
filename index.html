@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Conversion Program</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>TEMPERATURE CONVERSION</h1>
+      <input type="number" id="input" value="0" /><br />
+      <hr id="linia" />
+
+      <input type="radio" id="celtofah" name="conversions" />
+      <label for="celtofah">Celsius to</label>
+      Fahrenheit <br />
+
+      <input type="radio" id="fahtocel" name="conversions" />
+      <label for="fahtocel">Fahrenheit to Celsius</label> <br />
+
+      <button type="button" id="submit" onclick="convert()">submit</button>
+      <br />
+
+      <label id="resultname">result: </label>
+      <p id="result"></p>
+    </form>
+    <script src="src/main.ts"></script>
+  </body>
+</html>
