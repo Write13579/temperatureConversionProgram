@@ -13,17 +13,18 @@
       <hr id="linia" />
 
       <input type="radio" id="celtofah" name="conversions" />
-      <label for="celtofah">Celsius to</label>
-      Fahrenheit <br />
+      <label for="celtofah" class="options">Celsius to Fahrenheit</label> <br />
 
       <input type="radio" id="fahtocel" name="conversions" />
-      <label for="fahtocel">Fahrenheit to Celsius</label> <br />
+      <label for="fahtocel" class="options">Fahrenheit to Celsius</label> <br />
 
       <button type="button" id="submit" onclick="convert()">submit</button>
       <br />
 
       <label id="resultname">result: </label>
       <p id="result"></p>
+
+      <p id="info"></p>
     </form>
     <script src="src/main.ts"></script>
   </body>

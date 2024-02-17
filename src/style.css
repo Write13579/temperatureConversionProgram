@@ -50,3 +50,11 @@ button:active {
 #linia {
   width: 260px;
 }
+
+#result {
+  font-weight: bold;
+}
+
+.options {
+  font-size: large;
+}
